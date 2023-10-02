@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI.Main", "AuthAPI.Main\AuthAPI.Main.csproj", "{93FACD9B-A82F-482C-AD8E-8E33EED7E082}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthAPI", "AuthAPI\AuthAPI.csproj", "{5FF51D48-65AB-4350-9490-8238F5040D8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{3E7585E9-710F-4CE9-B1A8-B0C3E686D92D}"
+	ProjectSection(SolutionItems) = preProject
+		migration-add.ps1 = migration-add.ps1
+		migration-apply.ps1 = migration-apply.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{93FACD9B-A82F-482C-AD8E-8E33EED7E082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93FACD9B-A82F-482C-AD8E-8E33EED7E082}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93FACD9B-A82F-482C-AD8E-8E33EED7E082}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93FACD9B-A82F-482C-AD8E-8E33EED7E082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF51D48-65AB-4350-9490-8238F5040D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF51D48-65AB-4350-9490-8238F5040D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF51D48-65AB-4350-9490-8238F5040D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF51D48-65AB-4350-9490-8238F5040D8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
